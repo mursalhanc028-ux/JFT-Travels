@@ -267,7 +267,7 @@ img, svg { display: block; max-width: 100%; }
 }
 .chat-panel-header {
   background: var(--ink); color: var(--white); padding: 14px 18px;
-  display: none; align-items: center; justify-content: space-between;
+  display: flex; align-items: center; justify-content: space-between;
 }
 .chat-panel-header strong { display: block; font-size: 0.95rem; }
 .chat-panel-header span { display: block; font-size: 0.72rem; color: rgba(255,255,255,0.7); }
