@@ -252,10 +252,10 @@ img, svg { display: block; max-width: 100%; }
 .footer-copy { width: 100%; text-align: center; margin-top: 20px !important; font-size: 0.78rem !important; }
 
 /* ---------- Chat widget ---------- */
-.chat-widget { position: fixed; right: 22px; bottom: 22px; z-index: 100; }
+.chat-widget { position: floating; right: 22px; bottom: 22px; z-index: 100; }
 .chat-fab {
   width: 60px; height: 60px; border-radius: 50%; background: var(--emerald); color: var(--white);
-  border: none; cursor: pointer; display: flex; align-items: center; justify-content: center;
+  border: none; cursor: pointer; display: none; align-items: center; justify-content: center;
   box-shadow: var(--shadow-lift); transition: transform 0.15s ease;
 }
 .chat-fab:hover { transform: scale(1.06); }
